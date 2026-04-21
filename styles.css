@@ -145,6 +145,14 @@ a {
     color: var(--color-text-secondary);
     font-size: 13px;
     margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.project__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
 }
 
 .project__content {
@@ -444,6 +452,31 @@ a {
     justify-content: center;
     color: var(--color-text-secondary);
     font-size: 13px;
+    overflow: hidden;
+}
+
+.project-screens__item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
+
+.project-screens__item figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 12px 16px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 14px;
+}
+
+.project-screens__item figure {
+    position: relative;
+    margin: 0;
+    width: 100%;
 }
 
 .project-nav {
