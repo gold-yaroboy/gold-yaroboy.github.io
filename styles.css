@@ -564,6 +564,32 @@ a {
     border-radius: 24px;
 }
 
+.about-roles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.about-role {
+    padding: 28px 32px;
+    background: #F5F5F7;
+    border-radius: 24px;
+}
+
+.about-role h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.about-role p {
+    font-size: 14px;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
     .container {
@@ -623,6 +649,10 @@ a {
 
     .about__card {
         padding: 24px;
+    }
+
+    .about-roles {
+        grid-template-columns: 1fr;
     }
 
     .footer__inner {
