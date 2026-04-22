@@ -29,6 +29,7 @@ body {
     background: var(--color-bg);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    padding-top: 80px;
 }
 
 a {
@@ -49,6 +50,13 @@ a {
 /* Header */
 .header {
     padding: 24px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
 }
 
 .header__inner {
