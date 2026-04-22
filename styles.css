@@ -518,13 +518,12 @@ a {
 }
 
 .about-page h2 {
-    font-size: 14px;
+    font-size: 48px;
     font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: var(--color-text-tertiary);
-    margin-bottom: 12px;
-    margin-top: 40px;
+    color: var(--color-text);
+    margin-bottom: 24px;
+    margin-top: 48px;
+    letter-spacing: -0.02em;
 }
 
 .about-page h2:first-child {
@@ -532,10 +531,11 @@ a {
 }
 
 .about-page p {
-    font-size: 16px;
-    line-height: 1.7;
+    font-size: 18px;
+    line-height: 1.8;
     color: var(--color-text-secondary);
-    margin-bottom: 16px;
+    margin-bottom: 20px;
+    max-width: 800px;
 }
 
 .about-hero {
@@ -560,6 +560,7 @@ a {
     color: var(--color-text-secondary);
     font-size: 13px;
     margin-bottom: 48px;
+    width: 100%;
 }
 
 /* Mobile */
