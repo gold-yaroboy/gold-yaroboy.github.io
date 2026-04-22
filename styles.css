@@ -251,7 +251,7 @@ a {
 .about__card p {
     font-size: 14px;
     color: var(--color-text-secondary);
-    margin-bottom: 16px;
+    margin-bottom: 32px;
     line-height: 1.5;
 }
 
