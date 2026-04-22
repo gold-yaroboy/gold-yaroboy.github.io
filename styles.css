@@ -590,6 +590,14 @@ a {
     margin-bottom: 0;
 }
 
+.about-page h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-text);
+    margin-bottom: 12px;
+    margin-top: 32px;
+}
+
 /* Mobile */
 @media (max-width: 768px) {
     .container {
