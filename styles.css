@@ -565,11 +565,18 @@ a {
     }
 
     .project__image {
-        min-height: 240px;
+        min-height: auto;
+        background: transparent;
     }
 
     .project__title {
         font-size: 32px;
+    }
+
+    .project-hero__nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
     }
 
     .about__title {
