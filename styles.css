@@ -61,6 +61,25 @@ a {
     font-weight: 600;
     font-size: 16px;
     color: var(--color-text);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo__img {
+    height: 28px;
+    width: auto;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__logo-img {
+    height: 24px;
+    width: auto;
 }
 
 .nav {
